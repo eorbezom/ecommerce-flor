@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Coquette Girls</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Barra de Navegación Fija -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="/images/logo1.png" alt="Coquette Girls Logo">
+                 <span class="brand-name">Coquette Girls</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about.html">Sobre Nosotros</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="shop.html">Tienda</a></li>
+                
+            </ul>
+           <div class="right-icons">
+                <a href="#" id="cart-icon">🛒(<span id="cart-count">0</span>)</a>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+            </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content-page">
+        <section class="page-header">
+            <div class="container">
+                <h1>Contáctanos</h1>
+            </div>
+        </section>
+
+        <section class="contact-section container">
+            <div class="contact-grid">
+                <div class="contact-form">
+                    <h2>Envíanos un Mensaje</h2>
+                    <form action="#" method="POST">
+                        <label for="name">Nombre Completo</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+
+                        <button type="submit" class="btn">Enviar Mensaje</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h2>Información de Contacto</h2>
+                    <p>
+                        Si tienes alguna pregunta sobre tu pedido, devoluciones o simplemente quieres saludar, no dudes en contactarnos.
+                    </p>
+                    <p>
+                        <strong>Correo Electrónico:</strong> info@coquettegirls.com
+                    </p>
+                    <p>
+                        <strong>Teléfono:</strong> +51 999 999 999
+                    </p>
+                    <p>
+                        <strong>Dirección:</strong> Monumento Santa Rosa Alta Huanuco, Perú(cerro pichi caca)
+                    </p>
+
+                    <h3>Síguenos en Redes Sociales</h3>
+                    <div class="social-links">
+                        <a href="#" target="_blank"><img src="images/facebook.svg" alt="Facebook"></a>
+                        <a href="#" target="_blank"><img src="images/instagram.svg" alt="Instagram"></a>
+                        <a href="#" target="_blank"><img src="images/tiktok.svg" alt="TikTok"></a>
+                    </div>
+                    <p style="margin-top: 20px;">
+                        ¡Siempre estamos activas en nuestras redes!
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Carrito de Compras Modal -->
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h3>Tu Carrito de Compras</h3>
+            <div id="cart-items">
+                <!-- Los items del carrito se cargarán aquí -->
+            </div>
+            <div class="cart-total">
+                <strong>Total: $<span id="cart-total-price">0.00</span></strong>
+            </div>
+            <button class="btn checkout-btn">Finalizar Compra</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-section about">
+                <h4>Coquette Girls</h4>
+                <p>Moda accesible y de calidad para la mujer moderna.</p>
+            </div>
+            <div class="footer-section links">
+                <h4>Enlaces Rápidos</h4>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="shop.html">Tienda</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section social">
+                <h4>Síguenos</h4>
+                <a href="#" target="_blank"><img src="images/facebook.svg" alt="Facebook"></a>
+                <a href="#" target="_blank"><img src="images/instagram.svg" alt="Instagram"></a>
+                <a href="#" target="_blank"><img src="images/tiktok.svg" alt="TikTok"></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            Derechos reservados © Orbezo(Erormar) 2025
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda - Coquette Girls</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Barra de Navegación Fija -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="/images/logo1.png" alt="Coquette Girls Logo">
+                 <span class="brand-name">Coquette Girls</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about.html">Sobre Nosotros</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="shop.html">Tienda</a></li>
+                
+            </ul>
+            <div class="burger">
+                <a href="#" id="cart-icon"> 🛒 (<span id="cart-count">0</span>)</a>
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content-page">
+        <section class="page-header">
+            <div class="container">
+                <h1>Nuestra Tienda</h1>
+            </div>
+        </section>
+
+        <div class="container shop-layout">
+            <!-- Barra Lateral de Filtros -->
+            <aside class="sidebar">
+                
+                <h3>Filtros de Productos</h3>
+
+                <!-- Filtro por Categoría -->
+                <div class="filter-group">
+                    <h4>Categoría</h4>
+                    <label><input type="checkbox" name="category" value="Mujeres"> Mujeres</label>
+                    <label><input type="checkbox" name="category" value="Jóvenes"> Jóvenes</label>
+                    
+                </div>
+
+                <!-- Filtro por Estación -->
+                <div class="filter-group">
+                    <h4>Estación</h4>
+                    <label><input type="checkbox" name="season" value="Verano"> Verano</label>
+                    <label><input type="checkbox" name="season" value="Invierno"> Invierno</label>
+                </div>
+
+                <!-- Filtro por Tipo -->
+                <div class="filter-group">
+                    <h4>Tipo de Prenda</h4>
+                    <label><input type="checkbox" name="type" value="Vestidos"> Vestidos</label>
+                    <label><input type="checkbox" name="type" value="Camisas"> Camisas</label>
+                    <label><input type="checkbox" name="type" value="Pantalones"> Pantalones</label>
+                    <label><input type="checkbox" name="type" value="Accesorios"> Falda</label>
+                </div>
+
+                <button class="btn" id="apply-filters">Aplicar Filtros</button>
+            </aside>
+
+            <!-- Contenido Principal - Grid de Productos -->
+            <section class="main-content">
+                <div class="shop-grid" id="shop-product-grid">
+                    <!-- Los productos se cargarán aquí con JavaScript -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Carrito de Compras Modal -->
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h3>Tu Carrito de Compras</h3>
+            <div id="cart-items">
+                <!-- Los items del carrito se cargarán aquí -->
+            </div>
+            <div class="cart-total">
+                <strong>Total: $<span id="cart-total-price">0.00</span></strong>
+            </div>
+            <button class="btn checkout-btn">Finalizar Compra</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-section about">
+                <h4>Coquette Girls</h4>
+                <p>Moda accesible y de calidad para la mujer moderna.</p>
+            </div>
+            <div class="footer-section links">
+                <h4>Enlaces Rápidos</h4>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="shop.html">Tienda</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section social">
+                <h4>Síguenos</h4>
+                <a href="#" target="_blank"><img src="images/facebook.svg" alt="Facebook"></a>
+                <a href="#" target="_blank"><img src="images/instagram.svg" alt="Instagram"></a>
+                <a href="#" target="_blank"><img src="images/tiktok.svg" alt="TikTok"></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            Derechos reservados © Orbezo(Erormar) 2025
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
