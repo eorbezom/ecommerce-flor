@@ -1,39 +1,36 @@
 // Datos de productos de ejemplo
 const products = [
-    { id: 1, name: "Vestido de Encaje Coquette", price: 59.99, image: "images/camisa/camisa1.jpeg", category: "Mujeres", season: "Verano", type: "Vestidos", featured: true },
-    { id: 2, name: "Blusa de Lazo Elegante", price: 34.50, image: "images/casaca/casa2.jpeg", category: "Mujeres", season: "Invierno", type: "Camisas", featured: true },
-    { id: 3, name: "Conjunto de Falda y Top Floral", price: 69.99, image: "images/short/short6.jpeg", category: "Jóvenes", season: "Verano", type: "Vestidos", featured: true },
-    { id: 4, name: "Pantalón Palazzo Blanco", price: 45.00, image: "images/pantalones1/panatalo2.jpeg", category: "Mujeres", season: "Verano", type: "Pantalones", featured: true },
-    { id: 5, name: "Cárdigan de Punto Suave", price: 49.99, image: "images/polos/polo1.jpeg", category: "Mujeres", season: "Invierno", type: "Accesorios", featured: false },
-    { id: 6, name: "Camisa de Seda Rosa", price: 39.99, image: "images/polos/polo2.jpeg", category: "Mujeres", season: "Invierno", type: "Camisas", featured: false },
-    { id: 7, name: "Mini Falda Plisada", price: 29.99, image: "images/polos2/polo5.jpeg", category: "Jóvenes", season: "Verano", type: "Pantalones", featured: false },
-    { id: 8, name: "ropa 22", price: 15.00, image: "images/polos2/polo7.jpeg", category: "Mujeres", season: "Verano", type: "Accesorios", featured: false },
-    { id: 9, name: "ropa 21", price: 15.00, image: "images/short/short7.jpeg", category: "Mujeres", season: "Verano", type: "Accesorios", featured: false },
-    { id: 10, name: "ropa 20", price: 15.00, image: "images/short/short8.jpeg", category: "Mujeres", season: "Verano", type: "Accesorios", featured: false },
-    { id: 11, name: "ropa 19", price: 15.00, image: "images/short/short9.jpeg", category: "Mujeres", season: "Verano", type: "Accesorios", featured: false },
-    { id: 12, name: "ropa 18", price: 15.00, image: "images/polos2/polo6.jpeg", category: "Mujeres", season: "Verano", type: "Accesorios", featured: false },
-    { id: 13, name: "ropa 17", price: 15.00, image: "images/camisa/camisa2.jpeg", category: "Mujeres", season: "Verano", type: "Accesorios", featured: false },
-    { id: 14, name: "ropa 16", price: 15.00, image: "images/camisa/camisa3.jpeg", category: "Mujeres", season: "Verano", type: "Accesorios", featured: true },
-    { id: 15, name: "ropa 15", price: 15.00, image: "images/casaca/casaca1.jpeg", category: "Mujeres", season: "Verano", type: "Accesorios", featured: false },
-    { id: 16, name: "ropa 14", price: 15.00, image: "images/casaca/casaca3.jpeg", category: "Mujeres", season: "Verano", type: "Accesorios", featured: false },
-    { id: 17, name: "ropa 13", price: 15.00, image: "images/casaca/casaca4.jpeg", category: "Mujeres", season: "Verano", type: "Accesorios", featured: false },
-    { id: 18, name: "ropa 12", price: 15.00, image: "images/faldas/falda1.jpeg", category: "Mujeres", season: "Verano", type: "Accesorios", featured: false },
-    { id: 19, name: "ropa 11", price: 15.00, image: "images/faldas/falda2.jpeg", category: "Mujeres", season: "Verano", type: "Accesorios", featured: false },
-    { id: 20, name: "ropa 10", price: 15.00, image: "images/faldas/falda4.jpeg", category: "Mujeres", season: "Verano", type: "Accesorios", featured: false },
-    { id: 21, name: "ropa 9", price: 15.00, image: "images/pantalones1/pantalo1.jpeg", category: "Mujeres", season: "Verano", type: "Accesorios", featured: false },
-    { id: 22, name: "ropa 8", price: 15.00, image: "images/pantalones1/pantalo3.jpeg", category: "Mujeres", season: "Verano", type: "Accesorios", featured: false },
-    { id: 23, name: "ropa 7", price: 15.00, image: "images/pantalones1/pantalon4.jpeg", category: "Mujeres", season: "Verano", type: "Accesorios", featured: false },
-    { id: 24, name: "ropa 6", price: 15.00, image: "images/pantalones2/pantalo2.jpeg", category: "Mujeres", season: "Verano", type: "Accesorios", featured: false },
-    { id: 25, name: "ropa 5", price: 15.00, image: "images/pantalones2/pantalo3.jpeg", category: "Mujeres", season: "Verano", type: "Accesorios", featured: false },
-    { id: 26, name: "ropa 4", price: 15.00, image: "images/pantalones2/pantalo4.jpeg", category: "Mujeres", season: "Verano", type: "Accesorios", featured: false },
-    { id: 27, name: "ropa 3", price: 15.00, image: "images/pantalones2/pantalon1.jpeg", category: "Mujeres", season: "Verano", type: "Accesorios", featured: true },
-    { id: 28, name: "ropa 2", price: 15.00, image: "images/polos2/polo7.jpeg", category: "Mujeres", season: "Verano", type: "Accesorios", featured: false },
-    { id: 29, name: "ropa 1", price: 15.00, image: "images/polos2/polo6.jpeg", category: "Mujeres", season: "Verano", type: "Accesorios", featured: false },
-
+    { id: 1, name: "Blusas de ocacion", price: 59.99, image: "images/camisa/camisa1.jpeg", category: "Mujeres", season: "Verano", type: "Camisas", featured: true },
+    { id: 2, name: "Casaca de Lazo Elegante", price: 34.50, image: "images/casaca/casa2.jpeg", category: "Mujeres", season: "Invierno", type: "Casaca", featured: true },
+    { id: 3, name: "Short Jeans Toque Rasgado", price: 69.99, image: "images/short/short6.jpeg", category: "Mujeres", season: "Verano", type: "Short", featured: true },
+    { id: 4, name: "Jeans de Tendencia", price: 45.00, image: "images/pantalones1/panatalo2.jpeg", category: "Mujeres", season: "Verano", type: "Pantalones", featured: true },
+    { id: 5, name: "Polo de Punto Suave", price: 49.99, image: "images/polos/polo1.jpeg", category: "Mujeres", season: "Verano", type: "Camisas", featured: false },
+    { id: 6, name: "Polo de Punto Suave", price: 39.99, image: "images/polos/polo2.jpeg", category: "Mujeres", season: "Verano", type: "Camisas", featured: false },
+    { id: 7, name: "Polo Plisada", price: 29.99, image: "images/polos2/polo5.jpeg", category: "Mujeres", season: "Verano", type: "Camisas", featured: false },
+    { id: 8, name: "Polos Casuales", price: 15.00, image: "images/polos2/polo7.jpeg", category: "Mujeres", season: "Verano", type: "Camisas", featured: false },
+    { id: 9, name: "Short Verano", price: 15.00, image: "images/short/short7.jpeg", category: "Mujeres", season: "Verano", type: "Short", featured: false },    
+    { id: 10, name: "Coleccione de verano", price: 15.00, image: "images/short/short9.jpeg", category: "Mujeres", season: "Verano", type: "Short", featured: false },
+    { id: 11, name: "Polos Casuales", price: 15.00, image: "images/polos2/polo6.jpeg", category: "Mujeres", season: "Verano", type: "Camisas", featured: false },
+    { id: 12, name: "Corset Pesacadora", price: 15.00, image: "images/camisa/camisa2.jpeg", category: "Mujeres", season: "Verano", type: "Camisas", featured: false },
+    { id: 13, name: "Camisa Elegante", price: 55.00, image: "images/camisa/camisa3.jpeg", category: "Mujeres", season: "Verano", type: "Camisas", featured: true },
+    { id: 14, name: "Casaca elegante", price: 115.00, image: "images/casaca/casaca1.jpeg", category: "Mujeres", season: "Invierno", type: "Casaca", featured: false },
+    { id: 15, name: "Casaca amorosa", price: 115.00, image: "images/casaca/casaca3.jpeg", category: "Mujeres", season: "Invierno", type: "Casaca", featured: false },
+    { id: 16, name: "Casaca nocturna", price: 115.00, image: "images/casaca/casaca4.jpeg", category: "Mujeres", season: "Invierno", type: "Casaca", featured: false },
+    { id: 17, name: "Falda pasion", price: 25.00, image: "images/faldas/falda1.jpeg", category: "Mujeres", season: "Verano", type: "Falda", featured: false },
+    { id: 18, name: "Shorts Casuales", price: 30.00, image: "images/faldas/falda2.jpeg", category: "Mujeres", season: "Verano", type: "Short", featured: false },
+    { id: 19, name: "Mini falda Seduccion", price: 35.00, image: "images/faldas/falda4.jpeg", category: "Mujeres", season: "Verano", type: "Falda", featured: false },
+    { id: 20, name: "Jeans Seguridad", price: 75.00, image: "images/pantalones1/pantalo1.jpeg", category: "Mujeres", season: "Verano", type: "Pantalones", featured: false },
+    { id: 21, name: "Coleecion de Jeans", price: 225.00, image: "images/pantalones1/pantalo3.jpeg", category: "Mujeres", season: "Verano", type: "Pantalones", featured: false },
+    { id: 22, name: "Jeans Comodas", price: 65.00, image: "images/pantalones1/pantalon4.jpeg", category: "Mujeres", season: "Verano", type: "Pantalones", featured: false },
+    { id: 23, name: "Mujer Joven", price: 68.00, image: "images/pantalones2/pantalo2.jpeg", category: "Mujeres", season: "Verano", type: "Pantalones", featured: false },
+    { id: 24, name: "Lucir Pasion", price: 55.00, image: "images/pantalones2/pantalo3.jpeg", category: "Mujeres", season: "Verano", type: "Pantalones", featured: false },
+    { id: 25, name: "Color idela ", price: 55.00, image: "images/pantalones2/pantalo4.jpeg", category: "Mujeres", season: "Verano", type: "Pantalones", featured: false },
+    { id: 26, name: "Muestrala elegancia", price: 75.00, image: "images/pantalones2/pantalon1.jpeg", category: "Mujeres", season: "Verano", type: "Pantalones", featured: true },    
+   
 
 ];
 
-// Carrito de Compras
+// Carrito de Compras                                                  //Camisas Casaca Vestidos Pantalones Short Falda  //Verano Invierno
 let cart = JSON.parse(localStorage.getItem('cart')) || [];
 
 // Función para guardar el carrito en localStorage
@@ -331,6 +328,61 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Inicializar contador de carrito al cargar
     updateCartCount();
+
+        // 🌸 Ventana emergente Promocional Automática + Tienda
+const promoModal = document.getElementById("promoModal");
+const promoClose = document.querySelector(".close-promo");
+const promoAceptar = document.getElementById("aceptarPromo");
+const tiendaLink = document.querySelector('.nav-links a[href="shop.html"]');
+
+if (promoModal) {
+  // Mostrar automáticamente después de 5 segundos al entrar a la página principal
+  if (window.location.pathname.includes("index.html") || window.location.pathname.endsWith("/")) {
+    const promoShown = sessionStorage.getItem("promoShown");
+    if (!promoShown) {
+      setTimeout(() => {
+        promoModal.style.display = "flex";
+        sessionStorage.setItem("promoShown", "true");
+      }, 2000); // 5 segundos
+    }
+  }
+
+  // Mostrar al hacer clic en "Tienda" (solo una vez por sesión)
+  if (tiendaLink) {
+    tiendaLink.addEventListener("click", (e) => {
+      e.preventDefault();
+      const tiendaPromo = sessionStorage.getItem("tiendaPromo");
+      if (!tiendaPromo) {
+        promoModal.style.display = "flex";
+        sessionStorage.setItem("tiendaPromo", "true");
+      } else {
+        window.location.href = "shop.html";
+      }
+    });
+  }
+
+  // Cerrar el modal
+  const cerrarPromo = () => (promoModal.style.display = "none");
+
+  if (promoClose) {
+    promoClose.addEventListener("click", cerrarPromo);
+  }
+  if (promoAceptar) {
+    promoAceptar.addEventListener("click", () => {
+      cerrarPromo();
+      if (!window.location.pathname.includes("index.html")) {
+        window.location.href = "shop.html";
+      }
+    });
+  }
+
+  // Cerrar si se hace clic fuera del contenido
+  window.addEventListener("click", (e) => {
+    if (e.target === promoModal) cerrarPromo();
+  });
+}
+
+
 });
 
 
