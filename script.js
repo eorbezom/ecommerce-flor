@@ -1,7 +1,7 @@
 // Datos de productos de ejemplo
 const products = [
     { id: 1, name: "Blusas de ocacion", price: 59.99, image: "images/camisa/camisa1.jpeg", category: "Mujeres", season: "Verano", type: "Camisas", featured: true },
-    { id: 2, name: "Casaca de Lazo Elegante", price: 34.50, image: "images/casaca/casa2.jpeg", category: "Mujeres", season: "Invierno", type: "Casaca", featured: true },
+    { id: 2, name: "Casaca de Cuerina Elegante", price: 34.50, image: "images/casaca/casa2.jpeg", category: "Mujeres", season: "Invierno", type: "Casaca", featured: true },
     { id: 3, name: "Short Jeans Toque Rasgado", price: 69.99, image: "images/short/short6.jpeg", category: "Mujeres", season: "Verano", type: "Short", featured: true },
     { id: 4, name: "Jeans de Tendencia", price: 45.00, image: "images/pantalones1/panatalo2.jpeg", category: "Mujeres", season: "Verano", type: "Pantalones", featured: true },
     { id: 5, name: "Polo de Punto Suave", price: 49.99, image: "images/polos/polo1.jpeg", category: "Mujeres", season: "Verano", type: "Camisas", featured: false },
@@ -13,9 +13,9 @@ const products = [
     { id: 11, name: "Polos Casuales", price: 15.00, image: "images/polos2/polo6.jpeg", category: "Mujeres", season: "Verano", type: "Camisas", featured: false },
     { id: 12, name: "Corset Pesacadora", price: 15.00, image: "images/camisa/camisa2.jpeg", category: "Mujeres", season: "Verano", type: "Camisas", featured: false },
     { id: 13, name: "Camisa Elegante", price: 55.00, image: "images/camisa/camisa3.jpeg", category: "Mujeres", season: "Verano", type: "Camisas", featured: true },
-    { id: 14, name: "Casaca elegante", price: 115.00, image: "images/casaca/casaca1.jpeg", category: "Mujeres", season: "Invierno", type: "Casaca", featured: false },
-    { id: 15, name: "Casaca amorosa", price: 115.00, image: "images/casaca/casaca3.jpeg", category: "Mujeres", season: "Invierno", type: "Casaca", featured: false },
-    { id: 16, name: "Casaca nocturna", price: 115.00, image: "images/casaca/casaca4.jpeg", category: "Mujeres", season: "Invierno", type: "Casaca", featured: false },
+    { id: 14, name: "Casaca Cuerina elegante", price: 115.00, image: "images/casaca/casaca1.jpeg", category: "Mujeres", season: "Invierno", type: "Casaca", featured: false },
+    { id: 15, name: "Casaca Cuerina amorosa", price: 115.00, image: "images/casaca/casaca3.jpeg", category: "Mujeres", season: "Invierno", type: "Casaca", featured: false },
+    { id: 16, name: "Casaca Cuerina nocturna", price: 115.00, image: "images/casaca/casaca4.jpeg", category: "Mujeres", season: "Invierno", type: "Casaca", featured: false },
     { id: 17, name: "Falda pasion", price: 25.00, image: "images/faldas/falda1.jpeg", category: "Mujeres", season: "Verano", type: "Falda", featured: false },
     { id: 18, name: "Shorts Casuales", price: 30.00, image: "images/faldas/falda2.jpeg", category: "Mujeres", season: "Verano", type: "Short", featured: false },
     { id: 19, name: "Mini falda Seduccion", price: 35.00, image: "images/faldas/falda4.jpeg", category: "Mujeres", season: "Verano", type: "Falda", featured: false },
