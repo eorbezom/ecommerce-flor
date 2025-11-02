@@ -691,7 +691,8 @@ footer .container {
 }
 
 .footer-section ul li a:hover {
-    color: var(--primary-color);
+    color: fuchsia;
+    
 }
 
 .footer-section.social a {
