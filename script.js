@@ -25,7 +25,7 @@ const products = [
     { id: 23, name: "Mujer Joven", price: 68.00, image: "images/pantalones2/pantalo2.jpeg", category: "Mujeres", season: "Verano", type: "Pantalones", featured: false },
     { id: 24, name: "Lucir Pasion", price: 55.00, image: "images/pantalones2/pantalo3.jpeg", category: "Mujeres", season: "Verano", type: "Pantalones", featured: false },
     { id: 25, name: "Color idela ", price: 55.00, image: "images/pantalones2/pantalo4.jpeg", category: "Mujeres", season: "Verano", type: "Pantalones", featured: false },
-    { id: 26, name: "Muestrala elegancia", price: 75.00, image: "images/pantalones2/pantalon1.jpeg", category: "Mujeres", season: "Verano", type: "Pantalones", featured: true },    
+    { id: 26, name: "Skinny jeans", price: 75.00, image: "images/pantalones2/pantalon1.jpeg", category: "Mujeres", season: "Verano", type: "Pantalones", featured: true },    
    
 
 ];
@@ -45,7 +45,7 @@ function renderProduct(product) {
             <img src="${product.image}" alt="${product.name}">
             <div class="product-info">
                 <h3>${product.name}</h3>
-                <p class="price">$${product.price.toFixed(2)}</p>
+                <p class="price">S/. ${product.price.toFixed(2)}</p>
                 <button class="btn add-to-cart" data-id="${product.id}">Agregar al carrito</button>
             </div>
         </div>
@@ -112,7 +112,7 @@ function renderCart() {
                 <div class="cart-item">
                     <div class="cart-item-details">
                         <strong>${item.name}</strong>
-                        <span>$${item.price.toFixed(2)} x ${item.quantity}</span>
+                        <span>S/. ${item.price.toFixed(2)} x ${item.quantity}</span>
                     </div>
                     <button class="remove-from-cart" data-id="${item.id}">Eliminar</button>
                 </div>
@@ -233,7 +233,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <img src="${product.image}" alt="${product.name}" onerror="this.src='images/placeholder.png'">
                 <div class="product-info">
                     <h3>${product.name}</h3>
-                    <p class="price">$${product.price.toFixed(2)}</p>
+                    <p class="price">S/. ${product.price.toFixed(2)}</p>
                     <button class="btn add-to-cart" data-id="${product.id}">Agregar al carrito</button>
                 </div>
             </div>
@@ -260,7 +260,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <img src="${product.image}" alt="${product.name}" onerror="this.src='images/placeholder.png'">
                     <div class="product-info">
                         <h3>${product.name}</h3>
-                        <p class="price">$${product.price.toFixed(2)}</p>
+                        <p class="price">S/. ${product.price.toFixed(2)}</p>
                         <button class="btn add-to-cart" data-id="${product.id}">Agregar al carrito</button>
                     </div>
                 </div>
